@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins";
+
+}
+
+.container {
+    width: 100%;
+    height: 70px;
+    background-color: #051367;
+    box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 1;
+}
+
+
+.nav-logo {
+    padding-top: 18px;
+    padding-left: 50px;
+    float: left;
+}
+
+.nav-menu ul {
+    padding-top: 25px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    padding-right: 40px;
+    opacity: 0.8;
+
+}
+
+ul li:hover {
+    opacity: 1;
+    font-weight: bold;
+    cursor: default;
+}
+
+.heading {
+    max-width: 100%;
+    height: 700px;
+    background-color: #051367;
+    font-family: Poppins, sans-serif;
+    border-bottom-left-radius: 2000px 400px;
+    z-index: 0.9;
+}
+
+.heading-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 180px;
+    padding-left: 50px;
+    z-index: 0.9;
+}
+
+.heading-button input {
+    color: #fff;
+    font-weight: bold;
+    width: 55px;
+    height: 30px;
+    background-color: #35BD05;
+    padding: 8px;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 8 8 24 8;
+}
+
+.heading-button p {
+    padding-left: 8px;
+    font: 10px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 1;
+}
+
+.heading-button span {
+    opacity: 0.6;
+}
+
+.txt-heading {
+    float: left;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+
+.txt-heading h3 {
+    font-size: 38px;
+    line-height: 48px;
+    padding-bottom: 16px;
+}
+
+.txt-heading p {
+    font-size: 16px;
+    opacity: 0.6;
+    padding-bottom: 32px;
+}
+
+.txt-heading .one {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.txt-heading span {
+    text-decoration: underline;
+}
+
+.download {
+    color: #fff;
+    background-color: #2A7FFE;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 8 8 24 8;
+    transition: 0.7s;
+}
+
+.download:hover {
+    color: #fff;
+    background-color: #2A7FFE;
+    opacity: 0.5;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 8 8 24 8;
+}
+
+.img-heading {
+    display: flex;
+    justify-content: end;
+    padding-right: 140px;
+}
+
+.img-heading img {
+    margin-top: -50px;
+    width: 80%;
+    transform: skewY(2deg) skewX(-3deg);
+}
+
+.main-contents {
+    margin-top: -300px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    background-color: #f2f2f2;
+    font-family: Poppins, sans-serif;
+}
+
+.txt-main {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 38px;
+    padding-top: 400px;
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.img-main img {
+    max-width: 40%;
+}
+
+.section-contents {
+    max-width: 100%;
+    height: 1000px;
+    background-color: #fff;
+    margin-top: 330px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-contents .img-section {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.section-contents img {
+    max-width: 75%;
+}
+
+.section-contents .txt-section {
+    padding-right: 250px;
+    font-family: Poppins, sans-serif;
+}
+
+.sOne {
+    color: #051367;
+    font-weight: 700;
+    margin-top: -180px;
+}
+
+.txt-section .one {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.txt-section span {
+    text-decoration: underline;
+}
+
+.txt-section h3 {
+    font-size: 32px;
+    line-height: 42px;
+    padding-top: 12px;
+}
+
+.sTwo {
+    font-size: 16px;
+    padding-top: 12px;
+    opacity: 0.7;
+}
+
+.sThree {
+    font-size: 16px;
+    padding-top: 12px;
+    opacity: 0.7;
+}
+
+#section-contents {
+    max-width: 100%;
+    height: 1000px;
+    background-color: #fff;
+    margin-top: -407px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+#img-section {
+    padding-top: -80px;
+    margin-right: 100px;
+}
+
+#section-contents img {
+    max-width: 105%;
+}
+
+#txt-section {
+    padding-left: 200px;
+    padding-right: 100px;
+    font-family: Poppins, sans-serif;
+}
+
+#txt-section .one {
+    font-style: italic;
+    font-weight: 800;
+}
+
+#txt-section span {
+    text-decoration: underline;
+}
+
+#txt-section h3 {
+    font-size: 32px;
+    line-height: 42px;
+    padding-top: 12px;
+}
+
+.sectionContents {
+    max-width: 100%;
+    height: 1000px;
+    background-color: #fff;
+    margin-top: -407px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.sectionContents .imgSection {
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 0.8;
+}
+
+.sectionContents img {
+    max-width: 140%;
+}
+
+.sectionContents .txtSection {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Poppins, sans-serif;
+}
+
+.txtSection .one {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.txtSection span {
+    text-decoration: underline;
+}
+
+.txtSection h3 {
+    font-size: 32px;
+    line-height: 42px;
+    padding-top: 12px;
+}
+
+.sectionFooter {
+    width: 100%;
+    height: 590px;
+    background-color: #fff;
+    margin-top: -422px;
+    position: relative;
+}
+
+#containerFooter {
+    width: 1000px;
+    height: 450px;
+    background-color: #051367;
+    border-radius: 100px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    line-height: 38px;
+    margin-top: 80px;
+    margin-left: 150px;
+    padding-top: 120px;
+    
+}
+
+#containerFooter h3 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+#containerFooter .one {
+    font-style: italic;
+    font-weight: 800;
+}
+
+#containerFooter span {
+    text-decoration: underline;
+}
+
+#containerFooter p {
+    line-height: 26px;
+}
+
+#containerFooter input {
+    margin-top: 40px;
+}
+
+#aside {
+    width: 1000px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+    padding-top: 120px;
+    position: relative;
+    justify-content: center;
+    box-shadow: 4px 4px 12px ;
+}
+
+
+#profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+#profile input {
+    margin-top: 12px;
+    border-style: none;
+    box-shadow:8px 8px 16px 8px;
+    border-bottom-left-radius: 25px ;
+    display: flex;
+    background-color: #051367;
+    color: #fff;
+    padding: 12px    
+}
+
+#frend {
+    font-weight: bold;      
+}
+
+#desc {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#desc h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#desc p {
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+#desc  {
+    margin-top: 24px;
+}
+
+.email  {
+    margin-top: 30px;
+}
+
+#footers {
+    margin-top: 80px;
+    width: 100%;
+    height: 490px;
+    background-color: #f2f2f2;
+    font-family: Poppins, sans-serif;
+}
+
+#contentsFooters {
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+#contentsFooters .one {
+    font-style: italic;
+    font-weight: 800;
+}
+
+#contentsFooters span {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+#contentsFooters p {
+    font-size: 16px;
+    opacity: 0.7;
+    padding-top: 12px;
+}
+
+#contentsFooters img {
+    padding-top: 24px;
+    margin-right: 12px;
+    max-width: 15%;
+}
+
+.txtFooters {
+    float: right;
+    margin-top: 110px;
+    margin-right: 115px;
+}
+
+.txtFooters p {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: -40px;
+    padding-bottom: 24px;
+}
+
+.txtFooters a {
+    display: flex;
+    padding-top: 16px;
+    padding-left: -40px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
